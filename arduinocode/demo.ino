@@ -1,0 +1,19 @@
+/*
+ Ronald's first program is awesome
+ */
+
+int cnt=0;
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.print("Verenga tione : ");
+  Serial.println(cnt);
+  cnt=cnt+1;
+  delay(1000);
+
+}
